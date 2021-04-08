@@ -1,6 +1,6 @@
 # How Sum
 
-# Recursion   # Time _Complexity--> O(n^m  *m)  
+# Recursion   # Time _Complexity--> O(n^m  *m)    m-->targetsum   n=len(arr)
 def howSum(targetSum,arr):
     if targetSum==0:
         return []
