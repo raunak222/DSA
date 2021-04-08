@@ -1,2 +1,2 @@
 # DSA
-## Study about Data Structures and Algorithms
+## Study about Data Structures and Algorithms  Using Dynamic Programming
