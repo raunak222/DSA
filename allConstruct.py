@@ -48,7 +48,7 @@ def allConstruct_t(target,wordbank):
     for i in range(len(target)):
         for word in wordbank:
             if word==target[i:i+len(word)]:
-                newComb=[[word] for j in dp[i]]
+                newComb=[j+[word] for j in dp[i]]
                 dp[i+len(word)]+=newComb
                        
     return dp[-1]
